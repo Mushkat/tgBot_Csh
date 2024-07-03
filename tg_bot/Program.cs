@@ -16,7 +16,7 @@ namespace tg_bot
         /// <returns></returns>
         static async Task Main(string[] args)
         {
-            var botClient = new TelegramBotClient("6000388736:AAG5kI9NV5AHMUm4Z5Nt0Dipa8FN0tcVYxs");
+            var botClient = new TelegramBotClient("Here can be your bot token");
 
             using CancellationTokenSource cts = new();
 
